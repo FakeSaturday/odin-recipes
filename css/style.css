@@ -1,0 +1,12 @@
+h1, h3 {
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+.recipe-list {
+    justify-content: center;
+    display: flex;
+}
