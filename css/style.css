@@ -1,14 +1,19 @@
 body {
-    background-color: #151515;
-    color: navajowhite;
+    background-color: #1f1d1d;
+    color: rgba(255, 222, 173, 0.966);
+    margin: auto;
+    padding: 0 20px;
+    max-width: 850px;
 }
 h1, h3 {
     text-align: center;
-    color: yellow;
+    color: orangered;
+    display: block;
 }
 
 h2 {
-    color: yellow;
+    color: orangered;
+    text-align: center;
 }
 
 .image {
@@ -28,4 +33,29 @@ a:hover, a:active {
 a:visited {
     color: orange;
     text-decoration: none;
+}
+
+.burger-image, .milkshake, .pasta {
+    text-align: center;
+}
+
+#pizzaburgertitle, #milkshake-title, #pasta-title  {
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+
+.pizzaburger, .pasta-image, .milkshake-image {
+    width: 60%;
+    height: auto;
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    border-style: solid;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 2px;
 }
